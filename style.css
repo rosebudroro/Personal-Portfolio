@@ -55,9 +55,14 @@ h1 {
     text-align: center;
 }
 
-/* .portfolio2 {
+.portfolio1 {
+    display:block;
+    margin-bottom: 20px;
+}
+
+.portfolio2 {
     justify-content: space-evenly;
-} */
+}
 
 footer {
 text-align: center;
