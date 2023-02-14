@@ -1,71 +1,137 @@
 body {
-    background-color: rgb(217, 201, 236);
-    color: rgb(81, 40, 28);
+    background-color: rgb(244, 196, 184);
+    color: rgb(31, 123, 130);
     font-size: large;
     font-family: 'Calibri', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    align-content: center;
 }
 
 
 .header {
-    background-color: rgb(229, 185, 174);
-    padding: 20px;
-    
+    margin-bottom:5px;
+
 }
 
 nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(31, 123, 130);
+    font-weight: bold;
     padding-top: 15px;
     margin-right: 20px;
     text-align: right;
 }
 
 nav ul li {
-    display:inline-block;
+    display: inline-block;
     margin-left: 30px;
 }
 
-.aboutme {
-    
-    margin-top: -20px;
-    text-align: center;
-}
 
-.story {
-    /* display: inline-flex; */
-    margin: 20px;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 img {
-    width: auto;
-    max-height: 350px;
-    display: inline;
-    /* border-radius: 50%; */
-    border-width:thick;
-    border-style:dotted; color: white;
+    max-width: auto;
+    max-height: 500px;
+    margin-left: 60px;
+    border-width: thick;
+    border-style: dotted;
+    color: white;
+
 }
 
-p {
-    text-align: right;
-    
+#work {
+    background-color: rgb(31, 123, 130);
+    color:rgb(244, 196, 184)
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
+
+.image {
+    flex-basis: 40%
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-right: 40px;
+}
+
+.title {
+    font-size: 35px;
+    color:rgb(244, 196, 184)
+}
+
+.portfolio1 img {
+border-style: none;
+    max-height: 400px;
+    align-items: center;
+    flex-basis: auto;
+    margin-bottom: 15px;
+}
+
+.portfolio2 img {
+    flex-basis: auto;
+    max-height: 350px;
+    margin: 30px;
+    justify-content: space-evenyl;
+    border: thick;
+    border-color: gray;
+}
+
 
 h1 {
     display: block;
     text-align: center;
+    text-decoration: underline;
+    margin:40px;
+}
+
+
+#id {
+    background-color: rgb(31, 123, 130);
+    color:rgb(244, 196, 184)
 }
 
 .portfolio1 {
-    display:block;
-    margin-bottom: 20px;
+    background-color: rgb(31, 123, 130);
+    color:rgb(244, 196, 184);
+    padding:20px;
+
 }
 
 .portfolio2 {
-    justify-content: space-evenly;
+    display: flex;
+    background-color: rgb(31, 123, 130);
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+p {
+    margin-top: 5px;
+    font-weight: bold;
+    color:rgb(244, 196, 184)
+}
+
+
+.tasks {
+    display: block;
+    text-align: center;
 }
 
 footer {
-text-align: center;
-display: inline-block
+    margin-top: 30px;
+    text-align: center;
+    display: block;
 }
 
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+}
