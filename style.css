@@ -8,13 +8,15 @@ body {
 
 
 .header {
-    margin-bottom:5px;
+    margin-top:10px;
+    padding-bottom: 10px;
+    background-color: rgb(31, 123, 130);
 
 }
 
 nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(31, 123, 130);
+    color: rgb(244, 196, 184);
     font-weight: bold;
     padding-top: 15px;
     margin-right: 20px;
@@ -25,6 +27,11 @@ nav ul li {
     display: inline-block;
     margin-left: 30px;
 }
+
+a:visited { 
+    text-decoration: none;
+    color: rgb(244, 196, 184);
+   }
 
 
 .container {
@@ -62,16 +69,14 @@ img {
     margin-right: 40px;
 }
 
-.title {
+#title {
     font-size: 35px;
     color:rgb(244, 196, 184)
 }
 
 .portfolio1 img {
-border-style: none;
     max-height: 400px;
     align-items: center;
-    flex-basis: auto;
     margin-bottom: 15px;
 }
 
@@ -79,9 +84,7 @@ border-style: none;
     flex-basis: auto;
     max-height: 350px;
     margin: 30px;
-    justify-content: space-evenyl;
-    border: thick;
-    border-color: gray;
+    justify-content: space-evenly;
 }
 
 
@@ -132,6 +135,29 @@ footer {
 
 footer ul {
     display: flex;
+    font-weight: bold;
     justify-content: center;
     margin-right: 25px;
+}
+
+footer a:visited { 
+    text-decoration: none;
+    color: rgb(31, 123, 130);
+   }
+
+@media screen and (max-width: 992px) {
+    .portfolio1 img{
+        width: auto;
+    }
+    .portfolio2{
+    flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:768px){
+    .portfolio1 img{
+        width:auto;
+        height:300px;
+
+    }
 }
