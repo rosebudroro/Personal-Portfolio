@@ -28,7 +28,7 @@ nav ul li {
     margin-left: 30px;
 }
 
-a:visited { 
+nav a:visited { 
     text-decoration: none;
     color: rgb(244, 196, 184);
    }
