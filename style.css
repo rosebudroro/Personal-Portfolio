@@ -54,9 +54,6 @@ img {
 #work {
     background-color: rgb(31, 123, 130);
     color:rgb(244, 196, 184)
-    margin: 0;
-    border: 0;
-    padding: 0;
 }
 
 .image {
@@ -73,20 +70,6 @@ img {
     font-size: 35px;
     color:rgb(244, 196, 184)
 }
-
-.portfolio1 img {
-    max-height: 400px;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.portfolio2 img {
-    flex-basis: auto;
-    max-height: 350px;
-    margin: 30px;
-    justify-content: space-evenly;
-}
-
 
 h1 {
     display: block;
@@ -113,6 +96,19 @@ h1 {
     background-color: rgb(31, 123, 130);
     justify-content: space-around;
     padding-bottom: 20px;
+}
+
+.portfolio1 img {
+    max-height: 400px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.portfolio2 img {
+    flex-basis: auto;
+    max-height: 350px;
+    margin: 30px;
+    justify-content: space-evenly;
 }
 
 p {
