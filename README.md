@@ -13,9 +13,9 @@ N/A
 
 I started from scratch when building my Personal Portfolio. Below is a screenshot of my finished Personal Portfolio.
 
-![alt text](Personal-Portfolio/images/SS1.png)
-![alt text](Personal-Portfolio/images/SS2.png)
-![alt text](Personal-Portfolio/images/SS3.png)
+![alt text](./images/SS1.png)
+![alt text](./images/SS2.png)
+![alt text](./images/SS3.png)
 
 You can access my Personal Portfolio below:
 https://rosebudroro.github.io/Personal-Portfolio/
